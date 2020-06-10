@@ -4,7 +4,7 @@ const options = {
 };
 
 Reader.open('C:\\Users\\用户名\\Desktop\\****.awdb', options).then((reader) => {
-  let result = reader.get('1.1.1.1');
+  let result = reader.get('166.111.4.100');
   console.log(result);
   console.log(result.accuracy.toString());
 });
